@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+build/
+/.vite/
+/.cache/
+
+# Database / local data
+*.db
+data/
+/data/
+
+# Environment / secrets
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python virtualenv / packaging
+venv/
+.venv/
+env/
+ENV/
+.Python
+pip-wheel-metadata/
+*.egg-info/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+docker-compose.local.yml
+secrets/
+**/secrets.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*.tfplan
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Certificates / keys
+*.pem
+*.key
+*.p12
+*.crt
+
+# Coverage / misc
+coverage/
+coverage.*
+.vagrant/
